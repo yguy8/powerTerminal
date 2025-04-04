@@ -11,7 +11,7 @@ showname $1
 if [ $? = 1 ]; then 
 	echo "No te conozco"
 fi
-clara@clara-ThinkPad-L560:~/vimgh$ cat funciones.sh
+
 #!/bin/bash 
 
 showuptime(){
