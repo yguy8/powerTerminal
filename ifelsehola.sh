@@ -9,3 +9,13 @@ else
 
 fi
 
+#!/bin/bash
+
+#echo "Ingresa tu nombre en minúsculas"
+#read nombre
+#if [ $nombre = clara ]; then
+#       echo "Hola, Clara te estaba esperando"
+#else
+#        echo "No puedo recibirte"
+
+#fi
