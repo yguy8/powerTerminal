@@ -1,0 +1,16 @@
+Uso de grep (grep palabra archivo) así busca esa palabra en el archivo 
+a el patron me refiero a las palabras de busqueda 
+
+grep -i     # para que no distinga mayúsculas ni minúsculas 
+grep -v     # muestra las lineas que no contienen el patron 
+grep -e [palabra] -e [palabra] #las lineas que coincidan con las palabras -e es para buscar multiples 
+grep -n  #añade el numero de linea donde se encuntra el patron 
+grep -c  #imprime cuantas veces se encuntra el patron 
+grep -w  #solo esa palabra exacta la busca 
+grep -l -L #solo imprime los archivos que contienen el patron  y -L los que wue no contienen eso
+grep -r -R #busca en todo y le donde este y pone la ruta sino se especifica la ruta usa la actual
+-R #solo busca en enlaces simbolicos un enlace simbolico es el que esta en la ruta que estas o por alli mas no
+es una que este despues. Los puntos . .. significan el directorio . actual .. anterior
+grep -A -B -C #dar el contexto del patron de coincidencia -A muestra n lineas despues de
+lo que se encontro -B muestra antes esas lineas (before/after) -C ambos {grep -C 2 log.txt // ejemplo}
+grep -o #solo imprime la linea y no la imprime completa 
