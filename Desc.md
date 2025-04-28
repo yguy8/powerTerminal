@@ -1,2 +1,6 @@
-Prácticas con código de shell.
-Scrips que se pueden ejecutar en linux.
+#En este repositorio se encuentran 
+
+- Herramientas de hacking automatizadas 
+- Script que dan información del sistema 
+-   (próximamente más que tenga una lista de comandos de linux)
+
