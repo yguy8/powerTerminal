@@ -1,7 +1,5 @@
 ------------------------------------------------------------------------------------
-Bienvenido a como se escribe en marckdown esto lo hice en txt para que se vean 
-los componentes que se le agregan adjuntare una imagen en la carpeta junto
-a este archivo para que se visualice como queda 
+Bienvenido a como se escribe en marckdown esto lo hice en txt para que se vean los componentes que se le agregan adjuntare una imagen en la carpeta junto este archivo para que se visualice como queda 
 -----------------------------------------------------------------------------------
 
 --------------------	ENCABEZADOS 1 - 6	----------------------------------
@@ -21,7 +19,7 @@ a este archivo para que se visualice como queda
 
 **negritas** __negritas__
 
---tachado--
+~mini-letra~
 
 ==subrayado==
 
@@ -33,9 +31,9 @@ _cursiva_
 
 ---------------	NOTACIÓN	--------------------------------------------
 
-H_2_O notación 
+H~2~O notación 
 
-2⌃10⌃ potencia
+2^10^ potencia
 
 ----------------------	ENLACES E IMAGENES -----------------------------------
 
@@ -52,18 +50,21 @@ H_2_O notación
 
 1. lista enumerada
 
-- [] cuadritos para tachar tareas
+- [ ] cuadritos para tachar tareas
 
 
 --------------------	CÓDIGO	-------------------------------------------------
 
-' código de una sola linea '
+```
+// A code block
+var foo = 'bar';
+```
 
-´´´javascript (inserta lenguaje / algunos lo reconocen) 
+```javascript
+// An highlighted block
+var foo = 'bar';
+```
 
-varias lineas de código
-
-´´´
 ----------------------------	TABLAS	------------------------------------------
 
 
@@ -84,11 +85,17 @@ también incluire digramas en la parte de abajo
 
 ----------------------		Listas de definición	 --------------------------------
 
-# encabezado 
+encabezado 
 : texto
 
 ----------------------		Notas a pie de página 	-----------------------------------------------
 
-[⌃1]:La nota
+[^1]: La nota
+
+--------------- 	ABREVIACIONES 		------------
+
+*[HTML]:  HyperText Markup Language
 
 ------------------- 	FIN DEL ARCHIVO 	----------------------------------
+
+
