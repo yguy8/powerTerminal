@@ -19,7 +19,7 @@ Bienvenido a como se escribe en marckdown esto lo hice en txt para que se vean l
 
 **negritas** __negritas__
 
-~mini-letra~
+~tachado~
 
 ==subrayado==
 
@@ -31,7 +31,7 @@ _cursiva_
 
 ---------------	NOTACIÓN	--------------------------------------------
 
-H~2~O notación 
+H_2_O notación 
 
 2^10^ potencia
 
