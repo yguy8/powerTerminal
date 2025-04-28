@@ -1,6 +1,9 @@
-# En este repositorio se encuentran 
+# En este repositorio se encuentran
 
-- Herramientas de hacking automatizadas 
-- Script que dan información del sistema 
--   (próximamente más que tenga una lista de comandos de linux)
-
+- Herramientas de hacking automatizadas --> _dir_  **hack/**
+	- Escaneo de redes 
+	- Comprobación de herramientas
+- Script que dan información del sistema --> _dir_  **basic/**
+	- Menú de acciones
+	- Automatización de creación de archivos
+	- (próximamente más que tenga una lista de comandos de linux)
