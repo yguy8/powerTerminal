@@ -7,3 +7,7 @@
 	- Menú de acciones
 	- Automatización de creación de archivos
 	- (próximamente más que tenga una lista de comandos de linux)
+
+ - Herramientas para agilizar procesos del sistema --> _dir_ **sistools/**
+
+   
