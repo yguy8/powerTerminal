@@ -1,5 +1,5 @@
 # En este repositorio se encuentran
-
+![Bash/Vim/Linux](sh.jpg)
 - Herramientas de hacking automatizadas --> _dir_  **hack/**
 	- Escaneo de redes 
 	- Comprobación de herramientas instaladas sino no estan las instala automaticamente
@@ -9,5 +9,12 @@
 	- (próximamente más que tenga una lista de comandos de linux)
 
  - Herramientas para agilizar procesos del sistema --> _dir_ **sistools/**
+	- Herramientas para actualizar el sistema operativo
+   	- _Más prróximamente_
+  
+
+
+------------------ 	NOTA PERSONAL 	------------------------------
+dir local _vimux_ repo _viunt_
 
    
