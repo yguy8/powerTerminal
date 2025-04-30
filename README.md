@@ -1,5 +1,5 @@
 # En este repositorio se encuentran
-![Bash/Vim/Linux](sh.jpg)(100x50)
+![Bash/Vim/Linux](sh.jpg =100x50)
 - Herramientas de hacking automatizadas --> _dir_  **hack/**
 	- Escaneo de redes 
 	- Comprobación de herramientas instaladas sino no estan las instala automaticamente
