@@ -1,7 +1,7 @@
 #!/bin/bash
 showname(){
         echo Holanda $1
-	if [ ${1,,} = clara ]; then
+	if [ ${1,,} = root ]; then
 		return 0
 	else
 		return 1
