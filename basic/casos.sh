@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 case ${1,,} in 
-	clara | administrador)
+	root | administrador)
 		echo "Hola de nuevo"
 		;;
 	help)
