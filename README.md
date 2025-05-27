@@ -20,6 +20,9 @@
   - Sintaxis de markdown en --> _dir_ **markdown**
     	- Todo para lo que se necesita para dominar markdown
 
+**VimDoc** 
+        - Toda la documentación de vim para poder usarlo eficiente mente 
+
 
 ------------------ 	NOTA PERSONAL 	------------------------------
 dir local _vimux_ repo _viunt_
