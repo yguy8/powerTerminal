@@ -21,10 +21,9 @@
     	- Todo para lo que se necesita para dominar markdown
 
 **VimDoc** 
-        - Toda la documentación de vim para poder usarlo eficiente mente 
+        - Toda la documentación de vim para poder usarlo eficientemente 
 
 
------------------- 	NOTA PERSONAL 	------------------------------
-dir local _vimux_ repo _viunt_
+
 
    
