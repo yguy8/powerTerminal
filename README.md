@@ -1,4 +1,4 @@
-# PowerShell y BAsh
+# PowerShell y Bash
 <img src="https://user-images.githubusercontent.com/45159366/121950781-ed55ee00-cd0e-11eb-98e5-9816a77d4eb8.png" alt="BASH Y POWERSHELL" width="50%">
 
 ### Bash
