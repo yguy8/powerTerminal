@@ -10,4 +10,4 @@ case ${1,,} in
 	*)
 		echo "Hola, no se quien eres"
 esac 
-//es para ver quien es el administador y saludarlo según lo que conteste
+#es para ver quien es el administador y saludarlo según lo que conteste
