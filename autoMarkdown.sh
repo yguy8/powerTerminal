@@ -54,10 +54,9 @@ archivo_md="$nombre_archivo.md"
 # Crear el archivo
 touch "$archivo_md"
 
-# Bucle principal del menú, lo muestra dos veces
-contador= 1;
-while [ $contador -le 2 ]; do
-  ((contador--)) > /dev/null #no mostrar la resta del contador
+# Muestra el menú 
+#sleep puede ser una solución para esperar primero el nombre del archivo luego el menú para ver que desea hacer el usuario (while)
+#finalizar un enter para guardar
   mostrar_menu
   read opcion
   case $opcion in
@@ -68,16 +67,7 @@ while [ $contador -le 2 ]; do
     5) break ;;
     *) echo "Opción inválida" ;;
   esac
-  contador=$((contador + 1)) 
-done
 
 echo "Archivo $archivo_md creado exitosamente."
 echo "guardando..."
-
-waitForSave=2
-while [ $waitForSave -ge 0 ]; do
-  # Realiza la resta pero no la muestra
-  ((waitForSave--)) > /dev/null
-  echo "Guardado con éxito :)"
-done
-
+echo "Guardado"
