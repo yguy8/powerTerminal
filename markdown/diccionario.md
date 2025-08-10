@@ -11,10 +11,6 @@ Bienvenido a como se escribe en marckdown esto lo hice en txt para que se vean l
 ##### Encabezado5
 ###### Encabezado6
 
-------------------	SEPARACIÓN	-------------------------------
-
---- separación ---
-
 -----------------------		RESALTADO DE TEXTO/CONTENIDO	----------
 
 **negritas** __negritas__
@@ -28,12 +24,6 @@ Bienvenido a como se escribe en marckdown esto lo hice en txt para que se vean l
 _cursiva_
 
 > una cita
-
----------------	NOTACIÓN	--------------------------------------------
-
-H_2_O notación 
-
-2^10^ potencia
 
 ----------------------	ENLACES E IMAGENES -----------------------------------
 
@@ -60,7 +50,7 @@ H_2_O notación
 var foo = 'bar';
 ```
 
-```javascript
+```javascript  [^1]: Se especifica el código que se va a usar
 // An highlighted block
 var foo = 'bar';
 ```
@@ -74,15 +64,6 @@ var foo = 'bar';
 |que    |com- | plicado   |
 
 
-
-------------------------------------------------------------------------------------------------
-Nota
-------------------------------------------------------------------------------------------------
-Lo puse en formato txt para que se visualice lo que se usa aunque en markdow también lo hace 
-pero no sé se me hizo más especifico anexare un archivo a este otro con la imagen de como se ve, 
-también incluire digramas en la parte de abajo 
-------------------------------------------------------------------------------------------------
-
 ----------------------		Listas de definición	 --------------------------------
 
 encabezado 
@@ -90,7 +71,7 @@ encabezado
 
 ----------------------		Notas a pie de página 	-----------------------------------------------
 
-[^1]: La nota
+[^1]: La nota estas no se ven
 
 --------------- 	ABREVIACIONES 		------------
 
