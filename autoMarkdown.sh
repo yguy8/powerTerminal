@@ -2,17 +2,11 @@
 
 # Crea un archivo Markdown y muestra un menú de opciones.
 # Permite al usuario seleccionar opciones para escribir títulos, citas y código.
+echo "Bienvenido/a al creador de archivos Markdown"
+echo "Ingrese el contenido que quiere en el archivo"
+echo "Este es el menú de opciones de escritura que tiene"
 
-# Función para mostrar el menú
-mostrar_menu() {
-  echo "Seleccione una opción:"
-  echo "1. Título (H1)"
-  echo "2. Subtítulo (H2)"
-  echo "3. Cita"
-  echo "4. Bloque de código"
-  echo "5. Salir"
-}
-
+#Sección de funciones
 # Función para agregar un título
 agregar_titulo() {
   echo "Ingrese el texto del título:"
@@ -47,27 +41,47 @@ agregar_bloque_codigo() {
 
 
 # Solicitar el nombre del archivo
-echo "Ingrese el nombre del archivo Markdown (sin extensión):"
-read nombre_archivo
-archivo_md="$nombre_archivo.md"
+nombrar_archivo(){
+  echo "Ingrese el nombre del archivo Markdown (sin extensión):"
+  read nombre_archivo
+  archivo_md="$nombre_archivo.md"
+  # Crear el archivo
+  touch "$archivo_md"
+  echo "Archivo $archivo_md creado exitosamente."
+  sleep 2 
+  echo "Guardado"
+}
 
-# Crear el archivo
-touch "$archivo_md"
+ayuda(){
+  echo "MENÚ PRINCIPAL"
+  echo "-----------------------------------"
+  echo 
+  echo "1- Añadir título"
+  echo "2- Añadir subtítulo"
+  echo "3- Agregar cita"
+  echo "4- Agregar bloque de código"
+  echo "5- Finalizar para de dejar de escribir"
+  echo "6- Escriba 'Ayuda' para mostrar opciones"
+  echo
 
-# Muestra el menú 
-#sleep puede ser una solución para esperar primero el nombre del archivo luego el menú para ver que desea hacer el usuario (while)
-#finalizar un enter para guardar
-  mostrar_menu
-  read opcion
-  case $opcion in
-    1) agregar_titulo ;;
-    2) agregar_subtitulo ;;
-    3) agregar_cita ;;
-    4) agregar_bloque_codigo ;;
-    5) break ;;
-    *) echo "Opción inválida" ;;
-  esac
+  read -p "Introduzca una opción: " opcion
+}
 
-echo "Archivo $archivo_md creado exitosamente."
-echo "guardando..."
-echo "Guardado"
+ayuda 
+
+if [ $opcion -eq 1 ]; then
+        agregar_titulo
+elif [ $opcion -eq 2 ]; then
+        agregar_subtitulo
+elif [ $opcion -eq 3 ]; then
+        agregar_cita
+elif [ $opcion -eq 4 ]; then
+        agregar_bloque_codigo
+elif [ $opcion -eq 5 ]; then
+        nombrar_archivo
+elif [ $opción -eq 6 ]; then
+        ayuda
+fi
+
+
+
